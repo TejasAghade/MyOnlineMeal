@@ -1,0 +1,118 @@
+.form-select{
+    border: none!important;
+}
+
+.filter{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.filter a{
+    text-decoration: none;
+
+}
+
+.filter a:hover{
+    color: #ff0157!important;
+    border-bottom: 1px solid #dc3545;
+}
+
+.box{
+    height: 370px;
+    width: 270px;  
+    margin: 10px;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+    /* padding-top: 0; */
+    justify-content: space-between;
+    border: 1px solid #ffffff;
+}
+
+.box .food-img{
+    width: 240px;
+    height: 190px;
+    object-fit: cover;
+}
+
+
+
+.box .name{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buy-text, .browse-text{
+    visibility: hidden;
+    width: 100%;
+    padding-top: 12px;
+    text-align: center;
+    border-top: 1px solid #e9e9eb;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.buy-text a, .browse-text a{
+    font-weight: 700;
+    color: #5d8ed5;
+}
+
+
+.box:hover, .cat-box:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+}
+
+.box:hover .buy-text, .cat-box:hover .browse-text{
+    visibility: visible; 
+    border-top: 1px solid #e9e9eb;
+    
+}
+
+.buy-text a:hover, .browse-text a:hover{
+    color: #93959f;
+}
+
+
+.box-link span{
+    font-size: 0.9rem;
+    
+}
+
+.cat-wrap{
+    font-size: 0.8rem ;
+    color: #616161;
+}
+
+.box-link {
+    color: #111;
+}
+
+
+.box-link:hover{
+    color: #111;
+}
+
+
+
+
+/* category */
+
+.cat-box{
+    height: 320px;
+    width: 270px;  
+    
+}
+
+
+.category-text{
+    margin-top: 20px;
+    text-align: center;
+}
+

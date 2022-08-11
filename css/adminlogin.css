@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color:#fff;
+    height: 80px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+header .logo{
+    color: #ff6347;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+
+
+header .navigation{
+    position:  relative;
+    display: flex;
+
+}
+
+header .navigation li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #111;
+    font-weight: 300;
+}
+
+header .logo span{
+    color: #000000;
+
+}
+
+
+ header .navigation li a:hover{
+    border-bottom: 2px solid #111;
+    
+}
+
+
+
+.container{
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+/* -------------------------------- */
+/* login form & signup form style */
+
+.loginform{
+    margin: 50px;
+    border-radius: 8px;
+    width: 340px;
+    height: 360px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+.loginform .logintext, .signupform .signuptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.loginform .logintext h2, .signupform .signuptext h2{
+    text-transform: uppercase;
+    color: #4668ff;
+    font-size: 2rem;
+}
+
+.loginform .form-box, .signupform .form-box{
+    margin: 20px;
+
+
+}
+
+.loginform .form-box input[type="text"], input[type="password"], 
+.signupform .form-box input[type="text"], input[type="password"], input[type="email"]{
+    width: 210px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff0157;
+    padding: 7px;
+}
+
+
+::placeholder{
+    font-weight: 500;
+}
+
+.loginform .form-box input[type="submit"], .signupform .form-box input[type="submit"]{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 30px;
+
+}
+
+.loginform .login-btn, .signupform .signup-btn{
+    display: flex;
+    width: inherit;
+    justify-content: center;
+}
+
+.loginform .signup-link p, .signupform .login-link p{
+    font-size: 1rem;
+    font-weight: 3400;
+}
+
+.loginform .signup-link p a, .signupform .login-link p a{
+    text-decoration: none;
+    color: #ff0157;
+    font-weight: 500;
+}
+.signup-link p a:hover, .login-link p a:hover{
+    color: #00f;
+    transition: 0.2s;
+}
+
+/* ---------------------------------------------------- */
+
+/* more styling for Signup form */
+
+
+.signupform{
+    margin-top: 50px;
+    border-radius: 8px;
+    width: 340px;
+    height: 450px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+
+/* button css */
+.btn{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ff6347;
+    display: inline-block;
+    padding: 8.5px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    letter-spacing: 5px;
+}
+
+
+/* styling footer */
+
+.copyrightText{
+    padding: 2 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.copyrightText p{
+    color: #333;
+}
+
+.copyrightText span{
+    font-weight: 500;
+}

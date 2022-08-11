@@ -1,0 +1,178 @@
+.order-card{
+    /* border: 2px solid black; */
+    background: linear-gradient(to right, #c84554, #d65620);
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.count-text{
+    font-weight: 700;
+}
+
+.dash-food-img{
+    width: 54px;
+}
+
+.recent-requested-orders td{
+    padding: 8px 6px!important;
+}
+
+
+.card-box-shadow{
+    box-shadow: 0 0px 6px 0 rgba(78, 78, 78, 0.473);
+
+}
+
+.rounded-corner{
+    border-radius:10px!important;
+}
+
+
+.dropdown a{
+    color: #000000!important;
+}
+
+
+.total-card-wrapper{
+    width: 250px;
+    height: 110px;
+    background-color: #fff;
+    margin: 10px 8px;
+    border-radius:8px;
+    box-shadow: 0 0px 7px 0 rgb(114 114 114 / 45%);
+
+}
+
+.card-header{
+    background-color: #fff!important;    
+    background-color: transparent;
+    border: none;
+    
+    
+}
+
+.head-stat-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.req-food-header{
+    font-weight: 500!important;
+}
+
+.req-card{
+    width: 470px!important;
+}
+
+.flex-row-two{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.or-card{
+    transition: 0.5s;
+    width: 310px;
+}
+
+.active .or-card{
+    transition: 0.5s;
+    width: 350px;
+}
+
+.pop-card{
+    transition: 0.5s;
+    width: 280px;
+}
+
+.active .pop-card{
+    transition: 0.5s;
+    width: 310px;
+}
+
+/* popular dish card  */
+
+.popular-dish{
+    /* background: none; */
+
+}
+
+
+.popular-card{
+    border-radius: 2px;
+    background: linear-gradient(to right, #5786c6, #259e78d7);
+    padding: 5px 20px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    
+}
+
+
+.popular-card h6{
+    font-weight: 500!important;
+}
+
+
+
+
+/* admin logout */
+
+.logout-ico{    
+    width: 14px!important;
+    height: 14px!important;
+    filter: invert();
+}
+
+.admin-name{
+    color: white;
+    margin-top: 12px;
+    border-bottom: 1px solid #fff;
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.admin-name:hover {
+    color: #faf891;
+    border-color: #faf891;
+}
+
+
+
+.admin-title-logout{
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.active .admin-title-logout{
+    width: 85%;
+}
+
+
+
+.modal-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+.description{
+    width: 100px;
+    
+}
+
+.table a{
+    margin: 2px;
+}
+
+.img-size-sml{
+    width: 100px;
+}
+
+form span{
+    font-size: 0.8rem;
+    color: red;
+}

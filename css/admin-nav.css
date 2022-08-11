@@ -1,0 +1,57 @@
+
+header{
+    position:sticky;
+    top: 0;
+    height: 45px;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    background-color: #4C79A9;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+
+
+
+header h6{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+header .admin-title h6{
+    font-size: 1.2rem;
+}
+
+.navigation, .nav-wrapper{
+    margin-left: 8%;
+    position: relative;
+    display: flex;
+}
+
+header .navigation li{
+    list-style: none;
+
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    padding: 11px 10px;
+}
+
+.navigation li{
+    margin: 5px 10px;
+}
+
+.navigation{
+    margin-left: 662px;
+}
+
+.admin-title{
+    margin-left: 5px;
+}

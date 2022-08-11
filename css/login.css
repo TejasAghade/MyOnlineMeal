@@ -1,0 +1,13 @@
+header>a:hover{
+    color:#ff0157!important;
+}
+
+
+
+.signupform .signuptext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,143 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.action{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+
+}
+
+.action .profile{
+    position: relative;
+    width: 70px;
+    height: 60px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.action .d-menu{
+    position: absolute;
+    top: 74px;
+    right: -10px;
+    padding: 20px 10px;
+    background-color: #fff;
+    width: 200px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.action .d-menu.d-active{
+
+    visibility: visible;
+    opacity: 1;
+}
+header.sticky .action .d-active{
+    top: 60px;
+}
+
+.action .d-menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+
+.action .d-menu h3{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.2em;
+    
+}
+
+.profile a{
+    color: #fff!important;
+}
+
+header.navigation li a:hover{
+    color: #ff5d94!important;
+}
+
+.profile a:hover{
+    color: rgb(38, 255, 183)!important;
+}
+
+.action .profile{
+    margin-top: 34px;
+    transition: 0.5s;
+}
+
+header.sticky .action .profile{
+    margin-top: 4px;
+}
+
+header.sticky .navigation li a h4{
+    color: #0096b1!important;
+}
+
+.action .d-menu h3 span{
+    font-size: 14px;
+    color: #cececc;
+    font-weight: 400;
+}
+
+.action .d-menu ul li{
+    list-style: none;
+    padding: 5px;
+    border-top:  1px solid rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.action .d-menu ul li img{
+    max-width: 20px;
+    margin-right: 10px;
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+
+.action .d-menu ul li:hover img{
+    opacity: 1;
+}
+
+.action .d-menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action .d-menu ul li a:hover{
+    color: #ff5d94;
+}
+
+
+.action .d-menu ul li:hover a{
+    color: #ff5d94;
+}

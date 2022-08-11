@@ -1,0 +1,55 @@
+.body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.dash-container{
+    display: flex;
+    color: white;
+    height: 100vh;
+}
+
+
+
+.dash-sidebar{
+    position: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 15%;
+    display: block;
+    background-color: black ;
+}
+
+
+.dash-content{
+    width: 85%;
+}
+
+.item-links a{
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 2.5px;
+}
+
+
+.item-links a:hover{
+    background-color:rgb(128, 117, 128);
+}
+
+.item-links{
+    margin: 1px 0px;
+    border-bottom: 2px solid grey;
+}
+
+
+

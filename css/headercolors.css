@@ -1,0 +1,21 @@
+
+
+header .logo{
+    color: #F28C28;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+
+}
+header>a:hover{
+    color:#ff0157;
+}
+header.sticky>a:hover{
+    color: #ff0157!important;
+}
+
+header .navigation li a{
+    text-decoration: none;
+    color: #CD7F32;
+    font-weight: 400;
+}
