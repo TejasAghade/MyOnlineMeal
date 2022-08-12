@@ -11,6 +11,8 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
         <title>Admin - MyOnlineMeal</title>
 	    <?php include './css.php';?>
+        <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png">
+
 
   </head>
   <body>

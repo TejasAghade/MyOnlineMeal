@@ -101,6 +101,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     <title>Admin Login | MyOnlineMeal</title>
     <link rel="stylesheet" href="../css/adminlogin.css">
     <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png">
+
     <style>
       
     </style>

@@ -79,6 +79,8 @@
     <title>Admin Signup | MyOnlineMeal</title>
     <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="../css/adminlogin.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png">
+
 </head>
 
 <body>
